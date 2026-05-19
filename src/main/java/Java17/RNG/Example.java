@@ -9,6 +9,6 @@ public class Example {
         RandomGenerator random = RandomGeneratorFactory.of("L64X128MixRandom")
                 .create();{
         }
-        System.out.println(random.nextInt(10000000));
+        System.out.println(random.nextInt(2));
     }
 }
